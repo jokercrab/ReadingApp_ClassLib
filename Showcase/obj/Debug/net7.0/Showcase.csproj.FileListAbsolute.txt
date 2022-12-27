@@ -15,3 +15,5 @@
 /home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/ref/Showcase.dll
 /home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/HtmlAgilityPack.dll
 /home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.csproj.CopyComplete
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/TextScrapping.dll
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/TextScrapping.pdb

@@ -14,6 +14,19 @@
             "related": ".deps.json;.pdb;.xml"
           }
         }
+      },
+      "TextScrapping/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46"
+        },
+        "compile": {
+          "bin/placeholder/TextScrapping.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextScrapping.dll": {}
+        }
       }
     }
   },
@@ -65,11 +78,17 @@
         "lib/uap10.0/HtmlAgilityPack.pdb",
         "lib/uap10.0/HtmlAgilityPack.pri"
       ]
+    },
+    "TextScrapping/1.0.0": {
+      "type": "project",
+      "path": "../TextScrapping/TextScrapping.csproj",
+      "msbuildProject": "../TextScrapping/TextScrapping.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "HtmlAgilityPack >= 1.11.46"
+      "HtmlAgilityPack >= 1.11.46",
+      "TextScrapping >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -96,7 +115,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/TextScrapping.csproj": {
+              "projectPath": "/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/TextScrapping.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

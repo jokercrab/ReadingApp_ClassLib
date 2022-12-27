@@ -1,0 +1,12 @@
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/bin/Debug/net7.0/TextScrapping.deps.json
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/bin/Debug/net7.0/TextScrapping.dll
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/bin/Debug/net7.0/TextScrapping.pdb
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.csproj.AssemblyReference.cache
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.GeneratedMSBuildEditorConfig.editorconfig
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.AssemblyInfoInputs.cache
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.AssemblyInfo.cs
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.csproj.CoreCompileInputs.cache
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.dll
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/refint/TextScrapping.dll
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.pdb
+/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/ref/TextScrapping.dll
