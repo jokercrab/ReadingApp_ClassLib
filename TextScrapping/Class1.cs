@@ -14,8 +14,9 @@ public class TextScrapper
 		main_text = doc.DocumentNode.SelectNodes(Xpath);	
 	}
 
-	public scrapp_current_page(string Xpath)
+	public string scrapp_current_page(string Xpath)
 	{
 		main_text = doc.DocumentNode.SelectNodes(Xpath);
+		return main_text;
 	}
 }
