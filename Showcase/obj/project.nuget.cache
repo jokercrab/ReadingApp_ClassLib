@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WdT2YI2cPd6JzOq3OuA6slMon4FoN/xPCBcQzbB1hluz3fga5z+fxd5w6siZqRtDIQEoyGSTsXWSMsIC6ef+qw==",
+  "success": true,
+  "projectFilePath": "/home/yura/Documents/ReadingApp_ClassLib/Showcase/Showcase.csproj",
+  "expectedPackageFiles": [
+    "/home/yura/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

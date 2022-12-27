@@ -1,0 +1,17 @@
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/Showcase
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/Showcase.deps.json
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/Showcase.runtimeconfig.json
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/Showcase.dll
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/Showcase.pdb
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.csproj.AssemblyReference.cache
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.GeneratedMSBuildEditorConfig.editorconfig
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.AssemblyInfoInputs.cache
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.AssemblyInfo.cs
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.csproj.CoreCompileInputs.cache
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.dll
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/refint/Showcase.dll
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.pdb
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.genruntimeconfig.cache
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/ref/Showcase.dll
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/HtmlAgilityPack.dll
+/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.csproj.CopyComplete
