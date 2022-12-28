@@ -10,3 +10,15 @@
 /home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/refint/TextScrapping.dll
 /home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/TextScrapping.pdb
 /home/yura/Documents/ReadingApp_ClassLib/TextScrapping/obj/Debug/net7.0/ref/TextScrapping.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\bin\Debug\net7.0\TextScrapping.deps.json
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\bin\Debug\net7.0\TextScrapping.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\bin\Debug\net7.0\TextScrapping.pdb
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.csproj.AssemblyReference.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.AssemblyInfoInputs.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.AssemblyInfo.cs
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\refint\TextScrapping.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.pdb
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\ref\TextScrapping.dll

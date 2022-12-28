@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4XJppa9raUMRwqEHaVjHJInGih0fZCqBW/1LqhCnESRRSwGlZSNs15o+b5Sj2Tm0MVXpRh//DGBxMZ+R3E9rqw==",
+  "dgSpecHash": "kk85X9of4cP5+krWmQuWNIRdX4be6/d1jatjIUXnzJ2B1iCIf53/E2Tv4a0vfER/Wf4v8M8mGhf5ruZfGf7aQg==",
   "success": true,
-  "projectFilePath": "/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/TextScrapping.csproj",
+  "projectFilePath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj",
   "expectedPackageFiles": [
-    "/home/yura/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512"
+    "C:\\Users\\anton\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
   ],
   "logs": []
 }
