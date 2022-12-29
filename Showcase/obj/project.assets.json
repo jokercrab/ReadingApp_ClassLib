@@ -92,32 +92,35 @@
     ]
   },
   "packageFolders": {
-    "/home/yura/.nuget/packages/": {}
+    "C:\\Users\\anton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yura/Documents/ReadingApp_ClassLib/Showcase/Showcase.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\Showcase\\Showcase.csproj",
       "projectName": "Showcase",
-      "projectPath": "/home/yura/Documents/ReadingApp_ClassLib/Showcase/Showcase.csproj",
-      "packagesPath": "/home/yura/.nuget/packages/",
-      "outputPath": "/home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/",
+      "projectPath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\Showcase\\Showcase.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\Showcase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/yura/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/TextScrapping.csproj": {
-              "projectPath": "/home/yura/Documents/ReadingApp_ClassLib/TextScrapping/TextScrapping.csproj"
+            "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj": {
+              "projectPath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj"
             }
           }
         }
@@ -153,7 +156,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

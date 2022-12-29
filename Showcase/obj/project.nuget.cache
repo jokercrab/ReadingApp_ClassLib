@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sN7EKQJT7Be5zqaUq1PZBMg8p12cPb8h+hjgM5XoHl4PHbzr772dit+Tk6pUIPzTa+eEH9qjdohofFSmJCAAew==",
+  "dgSpecHash": "0XGtRHBxbJQ+i3nOTze9A44RrPNEEQgDguT5nedGuimVZ8LJ301pnLjvk75QAKQ/I0ONM0y68DtWsKGSMozsKw==",
   "success": true,
-  "projectFilePath": "/home/yura/Documents/ReadingApp_ClassLib/Showcase/Showcase.csproj",
+  "projectFilePath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\Showcase\\Showcase.csproj",
   "expectedPackageFiles": [
-    "/home/yura/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512"
+    "C:\\Users\\anton\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
   ],
   "logs": []
 }

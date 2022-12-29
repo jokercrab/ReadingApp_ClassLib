@@ -1,7 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using HtmlAgilityPack;
+﻿using HtmlAgilityPack;
 using System.IO;
-using TextScrapping;
+using MainFunctions;
 
 
 //HtmlWeb web = new HtmlWeb();
@@ -13,6 +12,6 @@ using StreamWriter file = new("text");
 //foreach(var node in paragr)
 //   file.WriteLine(node.InnerText);
 TextScrapper scrapper = new TextScrapper("https://www.wuxiaworld.eu/chapter/omniscient-readers-viewpoint-1");
-file.WriteLine(scrapper.scrapp_current_page("//div[@id='chapterText']"));
+file.WriteLine(scrapper.ScrappCurrentPageParagraphs("//div[@id='chapterText']"));
 
 Console.WriteLine("Done!");

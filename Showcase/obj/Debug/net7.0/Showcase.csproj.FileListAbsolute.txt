@@ -17,3 +17,22 @@
 /home/yura/Documents/ReadingApp_ClassLib/Showcase/obj/Debug/net7.0/Showcase.csproj.CopyComplete
 /home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/TextScrapping.dll
 /home/yura/Documents/ReadingApp_ClassLib/Showcase/bin/Debug/net7.0/TextScrapping.pdb
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\Showcase.exe
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\Showcase.deps.json
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\Showcase.runtimeconfig.json
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\Showcase.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\Showcase.pdb
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\HtmlAgilityPack.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\TextScrapping.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\bin\Debug\net7.0\TextScrapping.pdb
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.csproj.AssemblyReference.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.AssemblyInfoInputs.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.AssemblyInfo.cs
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.csproj.CopyComplete
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\refint\Showcase.dll
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.pdb
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\Showcase.genruntimeconfig.cache
+C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\Showcase\obj\Debug\net7.0\ref\Showcase.dll
