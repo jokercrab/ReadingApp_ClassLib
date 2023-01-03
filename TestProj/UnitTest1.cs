@@ -27,7 +27,7 @@ namespace TestProj
             TextScrapper scrapper = new TextScrapper("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
             string expected = "https://www.wuxiaworld.eu/chapter/true-martial-world-2";
             //string expected = "https://www.wuxiaworld.eu/chapter/true-martial-world-1711";
-            Assert.Equal(expected, scrapper.GetNextPageLink("//button[@id='nextChapter']"));
+            Assert.Equal(expected, scrapper.GetNextPageLink());
         }
     }
 }
