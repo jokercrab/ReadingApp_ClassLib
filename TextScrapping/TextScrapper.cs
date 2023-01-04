@@ -8,16 +8,39 @@ public class TextScrapper
 {
     private readonly HtmlWeb _web;
     private readonly HtmlDocument _currentPage;
-    private readonly string _link;
     private readonly Uri _siteUri;
-   // private readonly string _nextPage;
-    //public string NextPageLink { get => _nextPage; }
+    private string? _nextPage;
+    private string? _previousPage;
+    public string NextPageLink
+    {
+        get 
+        {
+
+            if (_nextPage != null)
+                return _nextPage;
+            else
+                throw new NullReferenceException("There is no next page link");
+  
+        }
+    }
+
+    public string PreviousPageLink
+    {
+        get
+        {
+
+            if (_previousPage != null)
+                return _previousPage;
+            else
+                throw new NullReferenceException("There is no previous page link");
+
+        }
+    }
 
     public TextScrapper(string link)
     {
         _web = new HtmlWeb();
         _currentPage = _web.Load(link);
-        this._link = link;
         _siteUri= new Uri(link);
     }
 
@@ -31,28 +54,39 @@ public class TextScrapper
             text.Append('\n');
         }
         text.Remove(text.Length - 1, 1);
+        _nextPage = GetNextPageLink();
+        _previousPage = GetPreviousPageLink();
         return text;
     }
 
-    public string GetNextPageLink()
+    private string GetNextPageLink()
     {
         var node = _currentPage.DocumentNode.SelectSingleNode("//button[@id='nextChapter']");
         if (node == null)
             throw new NullReferenceException("No object with given xpath");
         node = node.ParentNode;
         var atribs = node.Attributes;
-        string link = atribs["href"].Value;
-        if (link == null)
-            throw new NullReferenceException("There is no href atrib");
+        string path = atribs["href"].Value;
+        //if (link == null)
+            //throw new NullReferenceException("There is no href atrib");
 
-        return "https://"+ _siteUri.Host + link;
+        return "https://"+ _siteUri.Host + path;
 
 
     }
 
-    public string GetPrevPageLink()
+    private string GetPreviousPageLink()
     {
-        throw new NotImplementedException("Method is not implemented yet");
+        var node = _currentPage.DocumentNode.SelectSingleNode("//button[@id='previousChapter']");
+        if (node == null)
+            throw new NullReferenceException("No object with given xpath");
+        node = node.ParentNode;
+        var atribs = node.Attributes;
+        string path = atribs["href"].Value;
+        //if (link == null)
+        //throw new NullReferenceException("There is no href atrib");
+
+        return "https://" + _siteUri.Host + path;
     }
 
 }

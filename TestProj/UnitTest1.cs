@@ -1,3 +1,6 @@
+using Xunit;
+using Xunit.Sdk;
+
 namespace TestProj
 {
 
@@ -26,8 +29,17 @@ namespace TestProj
         {
             TextScrapper scrapper = new TextScrapper("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
             string expected = "https://www.wuxiaworld.eu/chapter/true-martial-world-2";
+            var _ = scrapper.ScrappCurrentPageParagraphs("//div[@id='chapterText']");
             //string expected = "https://www.wuxiaworld.eu/chapter/true-martial-world-1711";
-            Assert.Equal(expected, scrapper.GetNextPageLink());
+            Assert.Equal(expected, scrapper.NextPageLink);
+        }
+
+        [Fact]
+        public void GetNextPageReturnsExceptionWhenFieldNotSet()
+        {
+            TextScrapper scrapper = new("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
+            var ex = Assert.Throws<NullReferenceException>(() => scrapper.NextPageLink);
+            Assert.Equal("There is no next page link", ex.Message);
         }
     }
 }
