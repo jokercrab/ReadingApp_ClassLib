@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj": {}
+    "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj": {
+    "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj",
+        "projectUniqueName": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
         "projectName": "TextScrapping",
-        "projectPath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj",
+        "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\obj\\",
+        "outputPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program\\VS_SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

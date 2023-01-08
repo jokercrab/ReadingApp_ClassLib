@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kk85X9of4cP5+krWmQuWNIRdX4be6/d1jatjIUXnzJ2B1iCIf53/E2Tv4a0vfER/Wf4v8M8mGhf5ruZfGf7aQg==",
+  "dgSpecHash": "3PwAr8Mgr/pWElX2ook2sdjtosfkRsAWqWbukeC9nIt1Od8riu74XvLaRec4Ap4q16xK6wBg+Iz+4xX9Odjilg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anton\\source\\Visual Studio 2019 Projects\\ReadingAppLib\\TextScrapping\\TextScrapping.csproj",
+  "projectFilePath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
   ],
