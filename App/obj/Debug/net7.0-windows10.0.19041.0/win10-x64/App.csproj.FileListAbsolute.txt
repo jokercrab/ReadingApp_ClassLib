@@ -1,0 +1,12 @@
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\App.csproj.AssemblyReference.cache
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\VS_projs\ReadingApp_ClassLib\App\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\App.GeneratedMSBuildEditorConfig.editorconfig
