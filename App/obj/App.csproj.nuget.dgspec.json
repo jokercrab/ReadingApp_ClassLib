@@ -25,7 +25,6 @@
         "originalTargetFrameworks": [
           "net7.0-android",
           "net7.0-ios",
-          "net7.0-maccatalyst",
           "net7.0-windows10.0.19041.0"
         ],
         "sources": {
@@ -36,19 +35,27 @@
         "frameworks": {
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj"
+              }
+            }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
-            "projectReferences": {}
-          },
-          "net7.0-maccatalyst16.1": {
-            "targetAlias": "net7.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj"
+              }
+            }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -239,70 +246,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         },
-        "net7.0-maccatalyst16.1": {
-          "targetAlias": "net7.0-maccatalyst",
-          "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Maui.Graphics": {
-              "target": "Package",
-              "version": "[7.0.52, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "xamarinios10",
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.MacCatalyst": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Controls": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Core": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Essentials": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
@@ -417,11 +360,74 @@
         "iossimulator-x64": {
           "#import": []
         },
-        "maccatalyst-x64": {
-          "#import": []
-        },
         "win10-x64": {
           "#import": []
+        }
+      }
+    },
+    "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
+        "projectName": "TextScrapping",
+        "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program\\VS_SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

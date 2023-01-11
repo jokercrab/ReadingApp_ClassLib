@@ -11,6 +11,8 @@ public class TextScrapper
     private readonly Uri _siteUri;
     private string? _nextPage;
     private string? _previousPage;
+    private string? _chapteName;
+    public List<string> Text { get; }
     public string NextPageLink
     {
         get 
@@ -36,34 +38,44 @@ public class TextScrapper
 
         }
     }
+    public string ChapterName
+    {
+        get
+        {
 
+            if (_chapteName != null)
+                return _chapteName;
+            else
+                throw new NullReferenceException("There is no chapter loaded yet");
+
+        }
+    }
     public TextScrapper(string link)
     {
         _web = new HtmlWeb();
         _currentPage = _web.Load(link);
         _siteUri= new Uri(link);
+        Text = new List<string>();
     }
 
-    public StringBuilder ScrappCurrentPageParagraphs(string Xpath)
+    public void ScrappCurrentPageParagraphs()
     {
-        var Nodes = _currentPage.DocumentNode.SelectNodes(Xpath);
-        StringBuilder text = new StringBuilder();
+        var Nodes = _currentPage.DocumentNode.SelectNodes("//div[@id='chapterText']");
+        
         foreach (var paragraph in Nodes)
         {
-            text.Append(paragraph.InnerText);
-            text.Append('\n');
+            Text.Add(paragraph.InnerText);
         }
-        text.Remove(text.Length - 1, 1);
         _nextPage = GetNextPageLink();
         _previousPage = GetPreviousPageLink();
-        return text;
+        _chapteName = GetChapterName();
     }
 
     private string GetNextPageLink()
     {
         var node = _currentPage.DocumentNode.SelectSingleNode("//button[@id='nextChapter']");
         if (node == null)
-            throw new NullReferenceException("No object with given xpath");
+            throw new NullReferenceException("No next page with given xpath");
         node = node.ParentNode;
         var atribs = node.Attributes;
         string path = atribs["href"].Value;
@@ -79,7 +91,7 @@ public class TextScrapper
     {
         var node = _currentPage.DocumentNode.SelectSingleNode("//button[@id='previousChapter']");
         if (node == null)
-            throw new NullReferenceException("No object with given xpath");
+            throw new NullReferenceException("No previous page link with given xpath");
         node = node.ParentNode;
         var atribs = node.Attributes;
         string path = atribs["href"].Value;
@@ -87,6 +99,14 @@ public class TextScrapper
         //throw new NullReferenceException("There is no href atrib");
 
         return "https://" + _siteUri.Host + path;
+    }
+    private string GetChapterName()
+    {
+        
+        var node = _currentPage.DocumentNode.SelectSingleNode("/html/body/div[1]/div/div[3]/div[1]/div[1]/div/div[2]/h1");
+        if (node == null)
+            throw new NullReferenceException("No chapter with given xpath");
+        return node.InnerText;
     }
 
 }

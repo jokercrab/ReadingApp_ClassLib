@@ -1,0 +1,264 @@
+[2023-01-09 15:14:40.3] --- Android SDK Manager Version Info ---
+[2023-01-09 15:14:40.3] Version: 17.4.0.53
+[2023-01-09 15:14:40.3] Build date: 1/6/2023 9:10:43 PM
+[2023-01-09 15:14:40.3] Branch: remotes/origin/main
+[2023-01-09 15:14:40.3] Commit Hash: 0fb3646
+[2023-01-09 15:14:40.3] ----------------------------------------
+[2023-01-09 15:14:40.3] Run arguments: "D:\Program\Visual Studio\Common7\IDE\Extensions\Xamarin\AndroidSdkManager\AndroidSDKManager.exe" -android_registry /SOFTWARE\Xamarin\VisualStudio\17.0_ab8ba805\Android -mono_android_path /"D:\Program\Visual Studio\MSBuild\Xamarin\Android" -culture en-US -log_path /"" -vs_pid /6276 -vs_version 17.4 -p 5a47b234-f9b2-4941-8d30-272aa0536fea -telemetry_session "{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"4b3d95ce-0321-4749-a97d-5acc2dd8f6b5\",\"Id\":\"4d3d6cc2-f9d8-4802-953e-cc9add93828b\",\"ProcessStartTime\":638088644151699664,\"SkuName\":\"VS_Community\",\"VSExeVersion\":\"17.4.33205.214\",\"BucketFiltersToEnableWatsonForFaults\":[{\"AdditionalProperties\":[],\"Id\":\"53126781-21df-4995-bac8-6c850c7c1efb\",\"WatsonEventType\":\"VisualStudioMemWatson\",\"BucketParameterFilters\":[\"(?i)perfwatsonstarvation\",null,null,null,null,null,null,null,null,null]}],\"BucketFiltersToAddDumpsToFaults\":[{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"09829c26-5ca9-48aa-b7ec-a65c5015d4a9\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.threading.tasks.taskcanceledexception\",\"(?i)streamjsonrpc\",\"(?i)streamjsonrpc.messagehandlerbase.<writeasync>d__23.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"1c6a66eb-7901-4e37-b95c-ad3d3d2f140c\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)microsoft.codeanalysis.sqlite.interop.sqlexception\",\"(?i)microsoft.codeanalysis.workspaces\",\"(?i)microsoft.codeanalysis.sqlite.v2.interop.sqlconnection.throw\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"2539a9bb-37ac-4e91-b968-adda30bf706d\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.objectdisposedexception\",\"(?i)microsoft.visualstudio.shell.ui.internal\",\"(?i)microsoft.visualstudio.platformui.navigatetosession.navigatetosearchoperation.notifyadditem\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"718b5c26-d4ac-403c-b3c0-32c1bae67eed\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.operationcanceledexception\",\"(?i)streamjsonrpc\",\"(?i)streamjsonrpc.messagehandlerbase.<writeasync>d__23.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"73571ed3-6a4c-4208-8769-6f8ba31b0387\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.threading.tasks.taskcanceledexception\",\"(?i)microsoft.codeanalysis.languageserver.protocol\",\"(?i)microsoft.codeanalysis.diagnostics.documentanalysisexecutor.<computedocumentdiagnosticanalyzerdiagnosticsasync>d__37.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"7d0ba908-27b3-4391-ad8f-b4ffc77f358c\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.invalidoperationexception\",\"(?i)microsoft.codeanalysis.test.utilities\",\"(?i)microsoft.codeanalysis.throwingtracelistener.fail\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"82adc543-da04-4928-a4ff-166652267b00\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.xml.xmlexception\",\"(?i)system.xml\",\"(?i)system.xml.xmltextreaderimpl.throw\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"9ef86ef4-88ce-47d8-bd3e-d8c8ae22477f\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.threading.tasks.taskcanceledexception\",\"(?i)streamjsonrpc\",\"(?i)streamjsonrpc.jsonrpc.<invokecoreasync>d__154.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"a86f04a9-198c-431a-9ad9-abc0bb6c3893\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.argumentexception\",\"(?i)microsoft.visualstudio.platform.vseditor\",\"(?i)microsoft.visualstudio.text.projection.implementation.elisionsnapshot.mapfromsourcesnapshot\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"a8876266-1e85-458a-a98c-7188ab53e2ae\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.argumentoutofrangeexception\",\"(?i)microsoft.codeanalysis\",\"(?i)microsoft.codeanalysis.text.textspan..ctor\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"b2034a78-ff71-476a-b1f1-7a614b931333\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.invalidoperationexception\",\"(?i)microsoft.codeanalysis.remote.workspaces\",\"(?i)microsoft.codeanalysis.remote.remotecallback`1.<invokeasync>d__3.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"d304244e-ee24-4be3-a55b-9594465db724\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.invalidoperationexception\",\"(?i)microsoft.codeanalysis.remote.workspaces\",\"(?i)microsoft.codeanalysis.remote.remotecallback`1.<invokeasync>d__2.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"d834e785-f0eb-4947-b9b9-5051e799aa24\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)streamjsonrpc.remoteinvocationexception\",\"(?i)streamjsonrpc\",\"(?i)streamjsonrpc.jsonrpc.<invokecoreasync>d__143`1.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"dad70718-e4e3-4016-8abc-852c044597a1\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.invalidoperationexception\",\"(?i)microsoft.codeanalysis.workspaces\",\"(?i)microsoft.codeanalysis.shared.extensions.isolutionextensions.getrequiredproject\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"e9940337-2ead-49ca-8069-098d308bf8c0\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[null,null,\"vs.fault.faulttest\",null,null,null,null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"f0a9eda9-f4ee-406b-8d16-3a73afcc430a\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)servicehub.roslyncodeanalysisservice.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.operationcanceledexception\",\"(?i)streamjsonrpc\",\"(?i)streamjsonrpc.jsonrpc.<invokecoreasync>d__143`1.movenext\",null,null,null,null]},{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"fbbf80ba-50ea-4298-afdb-808e3deb2772\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[\"(?i)devenv.exe\",null,\"(?i)vs.ide.vbcs.nonfatalwatson\",\"(?i)system.threading.tasks.taskcanceledexception\",\"(?i)microsoft.codeanalysis.externalaccess.fsharp\",\"(?i)microsoft.codeanalysis.externalaccess.fsharp.internal.classification.fsharpclassificationservice.<addsemanticclassificationsasync>d__4.movenext\",null,null,null,null]}]}" 
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=constructor param, path=``, result=False
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=preferred path, path=`D:\Android\android-sdk`, found adb `D:\Android\android-sdk\platform-tools\adb.EXE`
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=preferred path, path=`D:\Android\android-sdk`, result=True
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateJavaSdkLocation: locator=constructor param, path=``, result=False
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateJavaSdkLocation: for locator=preferred path, path=`C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot`, found jarsigner `C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\jarsigner.EXE`
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateJavaSdkLocation: for locator=preferred path, path=`C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot`, found jarsigner `C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\jarsigner.exe`
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateJavaSdkLocation: locator=preferred path, path=`C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot`, result=True
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateAndroidNdkLocation: for locator=constructor param, path=``, result=False
+[2023-01-09 15:14:44.3] DEBUG: [monodroid] ValidateAndroidNdkLocation: for locator=preferred path, path=``, result=False
+[2023-01-09 15:14:44.3] INFO: [monodroid] Looking for Android NDK...
+[2023-01-09 15:14:44.4] INFO: [monodroid] Looking for Android SDK...
+[2023-01-09 15:14:44.4] INFO: [monodroid] Looking for Android SDK...
+[2023-01-09 15:14:44.4] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=AllAndroidSdks, path=`D:\Android\android-sdk`, found adb `D:\Android\android-sdk\platform-tools\adb.EXE`
+[2023-01-09 15:14:44.4] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=AllAndroidSdks, path=`D:\Android\android-sdk`, found adb `D:\Android\android-sdk\platform-tools\adb.EXE`
+[2023-01-09 15:14:44.4] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=AllAndroidSdks, path=`D:\Android\android-sdk`, result=True
+[2023-01-09 15:14:44.4] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=AllAndroidSdks, path=`D:\Android\android-sdk`, found adb `D:\Android\android-sdk\platform-tools\adb.EXE`
+[2023-01-09 15:14:44.4] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=AllAndroidSdks, path=`D:\Android\android-sdk`, found adb `D:\Android\android-sdk\platform-tools\adb.EXE`
+[2023-01-09 15:14:44.4] DEBUG: [monodroid] ValidateAndroidSdkLocation: for locator=AllAndroidSdks, path=`D:\Android\android-sdk`, result=True
+[2023-01-09 15:14:46.9] INFO: No Android SDK instance matching the 'D:\Android\android-sdk' path
+[2023-01-09 15:14:47.9] DEBUG: Xamarin manifest base URL: https://aka.ms/xamarin/sdkmanifest/
+[2023-01-09 15:14:47.9] DEBUG: Parsing: platform tools
+[2023-01-09 15:14:47.9] DEBUG: Parsing: tools
+[2023-01-09 15:14:47.9] DEBUG: No elements of this kind found
+[2023-01-09 15:14:47.9] DEBUG: Parsing: cmdline-tools
+[2023-01-09 15:14:47.9] DEBUG: Parsing: build tools
+[2023-01-09 15:14:47.9] DEBUG: Parsing: emulators
+[2023-01-09 15:14:47.9] DEBUG: Parsing: NDK
+[2023-01-09 15:14:47.9] DEBUG: Parsing: LLDB
+[2023-01-09 15:14:47.9] DEBUG: No elements of this kind found
+[2023-01-09 15:14:47.9] DEBUG: Parsing: patchers
+[2023-01-09 15:14:47.9] DEBUG: Parsing: platforms
+[2023-01-09 15:14:47.9] DEBUG: Parsing: system images
+[2023-01-09 15:14:47.9] DEBUG: Parsing: addons
+[2023-01-09 15:14:47.9] DEBUG: Parsing: extras
+[2023-01-09 15:14:47.9] DEBUG: Detecting Android SDK in 'D:\Android\android-sdk'
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android SDK Platform-Tools r33.0.2 in directory 'D:\Android\android-sdk\platform-tools'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 33.0.2 on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android SDK Command-line Tools r7.0 in directory 'D:\Android\android-sdk\cmdline-tools/7.0'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 7.0 on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Command-line Tools r5.0 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Build-Tools 33 r33.0.0 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android SDK Build-Tools 32 r32.0.0 in directory 'D:\Android\android-sdk\build-tools/32.0.0'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 32.0.0 on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Build-Tools 31 r31.0.0 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Build-Tools 30.0.3 r30.0.3 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Build-Tools 30.0.2 r30.0.2 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android Emulator r31.2.10 in directory 'D:\Android\android-sdk\emulator'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 31.2.10 on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android Emulator r31.2.10 in directory 'D:\Android\android-sdk\emulator'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 31.2.10 on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r22.1.7171670 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r22.0.7026061 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r21.4.7075529 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r21.3.6528147 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r21.2.6472646 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r21.1.6352462 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r21.0.6113669 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r20.1.5948944 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r20.0.5594570 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r19.2.5345600 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r19.0.5232133 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r18.1.5063045 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r17.2.4988734 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r16.1.4479499 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Component NDK r14.1.3816874 not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component SDK Patch Applier v4 r1 in directory 'D:\Android\android-sdk\patcher/v4'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 1 on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Platform TiramisuPrivacySandbox r3 [Platform: API 33 "TiramisuPrivacySandbox"] not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android SDK Platform 33 r1 [Platform: API 33] in directory 'D:\Android\android-sdk\platforms/android-33'
+[2023-01-09 15:14:48.0] DEBUG:   Found revision 1 on the system
+[2023-01-09 15:14:48.0] DEBUG: Component Android SDK Platform 32 r1 [Platform: API 32] not present on the system
+[2023-01-09 15:14:48.0] DEBUG: Detecting component Android SDK Platform 31 r1 [Platform: API 31] in directory 'D:\Android\android-sdk\platforms/android-31'
+[2023-01-09 15:14:48.1] DEBUG:   Found revision 1 on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 30 r3 [Platform: API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 29 r5 [Platform: API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 28 r6 [Platform: API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 27 r3 [Platform: API 27] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 26 r2 [Platform: API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 25 r3 [Platform: API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 24 r2 [Platform: API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 23 r3 [Platform: API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 22 r2 [Platform: API 22] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android SDK Platform 21 r2 [Platform: API 21] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM EABI v7a System Image r4 [System Image: ARMV7a API 21] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM EABI v7a System Image r2 [System Image: ARMV7a API 22] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM EABI v7a System Image r6 [System Image: ARMV7a API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM EABI v7a System Image r7 [System Image: ARMV7a API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r7 [System Image: ARM64V8a API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r9 [System Image: ARM64V8a API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r2 [System Image: ARM64V8a API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r1 [System Image: ARM64V8a API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r1 [System Image: ARM64V8a API 27] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r1 [System Image: ARM64V8a API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r8 [System Image: ARM64V8a API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r1 [System Image: ARM64V8a API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM 64 v8a System Image r3 [System Image: ARM64V8a API 31] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r5 [System Image: X86 API 21] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r6 [System Image: X86 API 22] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r10 [System Image: X86 API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r8 [System Image: X86 API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r1 [System Image: X86 API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r1 [System Image: X86 API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r1 [System Image: X86 API 27] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r4 [System Image: X86 API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r8 [System Image: X86 API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom System Image r8 [System Image: X86 API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r5 [System Image: X86_64 API 21] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r6 [System Image: X86_64 API 22] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r10 [System Image: X86_64 API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r8 [System Image: X86_64 API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r1 [System Image: X86_64 API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r1 [System Image: X86_64 API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r1 [System Image: X86_64 API 27] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r4 [System Image: X86_64 API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r8 [System Image: X86_64 API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r8 [System Image: X86_64 API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r10 [System Image: X86_64 API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Atom_64 System Image r3 [System Image: X86_64 API 31] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android Wear ARM EABI v7a System Image r3 [System Image: ARMV7a API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android Wear Intel x86 Atom System Image r3 [System Image: X86 API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android Wear Intel x86 Atom System Image r4 [System Image: X86 API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Wear OS Intel x86 Atom System Image r9 [System Image: X86 API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Wear OS 3 - Preview Intel x86 Atom System Image r10 [System Image: X86 API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Wear OS 3 - Preview ARM 64 v8a System Image r10 [System Image: ARM64V8a API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component China version of Android Wear ARM EABI v7a System Image r4 [System Image: ARMV7a API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component China version of Android Wear Intel x86 Atom System Image r4 [System Image: X86 API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component China version of Android Wear Intel x86 Atom System Image r4 [System Image: X86 API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component China version of Wear OS Intel x86 Atom System Image r9 [System Image: X86 API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component China version of Wear OS 3 - Preview Intel x86 Atom System Image r10 [System Image: X86 API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component China version of Wear OS 3 - Preview ARM 64 v8a System Image r10 [System Image: ARM64V8a API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r3 [System Image: X86 API 21] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV ARM EABI v7a System Image r3 [System Image: ARMV7a API 21] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r3 [System Image: X86 API 22] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r21 [System Image: X86 API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV ARM EABI v7a System Image r12 [System Image: ARMV7a API 23] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r22 [System Image: X86 API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r16 [System Image: X86 API 25] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r14 [System Image: X86 API 26] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r9 [System Image: X86 API 27] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r10 [System Image: X86 API 28] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r3 [System Image: X86 API 29] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r3 [System Image: X86 API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV Intel x86 Atom System Image r3 [System Image: X86 API 31] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android TV ARM 64 v8a System Image r3 [System Image: ARM64V8a API 31] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component AOSP ATD Intel x86 Atom System Image r1 [System Image: X86 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component AOSP ATD ARM 64 v8a System Image r1 [System Image: ARM64V8a API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ATD Intel x86 Atom System Image r1 [System Image: X86 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ATD ARM 64 v8a System Image r1 [System Image: ARM64V8a API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google TV Intel x86 Atom System Image r3 [System Image: X86 API 30] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google TV Intel x86 Atom System Image r3 [System Image: X86 API 31] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google TV ARM 64 v8a System Image r3 [System Image: ARM64V8a API 31] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r32 [System Image: X86 API 21 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r32 [System Image: X86_64 API 21 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM EABI v7a System Image r32 [System Image: ARMV7a API 21 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r26 [System Image: X86 API 22 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM EABI v7a System Image r26 [System Image: ARMV7a API 22 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r26 [System Image: X86_64 API 22 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r33 [System Image: X86 API 23 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r33 [System Image: X86_64 API 23 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM EABI v7a System Image r33 [System Image: ARMV7a API 23 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r27 [System Image: X86 API 24 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r27 [System Image: X86_64 API 24 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component ARM EABI v7a System Image r7 [System Image: ARMV7a API 24] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r27 [System Image: ARM64V8a API 24 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r18 [System Image: X86 API 25 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r18 [System Image: X86_64 API 25 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM EABI v7a System Image r18 [System Image: ARMV7a API 25 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r33 [System Image: ARM64V8a API 23 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r29 [System Image: ARM64V8a API 24 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r20 [System Image: ARM64V8a API 25 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r16 [System Image: X86 API 26 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r16 [System Image: X86_64 API 26 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r11 [System Image: X86 API 27 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r12 [System Image: X86 API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r11 [System Image: X86_64 API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r12 [System Image: X86 API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r12 [System Image: X86_64 API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom System Image r10 [System Image: X86 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r11 [System Image: X86_64 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r9 [System Image: X86_64 API 31 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs Intel x86 Atom_64 System Image r3 [System Image: X86_64 API 32 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Detecting component Google APIs Intel x86 Atom_64 System Image r5 [System Image: X86_64 API 33 (Google Inc.)] in directory 'D:\Android\android-sdk\system-images/android-33/google_apis/x86_64'
+[2023-01-09 15:14:48.1] DEBUG:   Found revision 5 on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r1 [System Image: ARM64V8a API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r1 [System Image: ARM64V8a API 26 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r1 [System Image: ARM64V8a API 27 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r12 [System Image: ARM64V8a API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r11 [System Image: ARM64V8a API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r9 [System Image: ARM64V8a API 31 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r3 [System Image: ARM64V8a API 32 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs ARM 64 v8a System Image r5 [System Image: ARM64V8a API 33 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r19 [System Image: X86 API 24 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r9 [System Image: X86 API 25 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r7 [System Image: X86 API 26 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r3 [System Image: X86 API 27 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r8 [System Image: X86 API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r9 [System Image: X86 API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r8 [System Image: X86_64 API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r8 [System Image: X86 API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r8 [System Image: X86 API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r8 [System Image: X86_64 API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r8 [System Image: X86_64 API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r9 [System Image: X86 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom System Image r9 [System Image: X86 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r10 [System Image: X86_64 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r10 [System Image: X86_64 API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r9 [System Image: X86_64 API 31 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r3 [System Image: X86_64 API 32 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r3 [System Image: X86_64 API 32 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Intel x86 Atom_64 System Image r5 [System Image: X86_64 API 33 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google ARM64-V8a Play ARM 64 v8a System Image r1 [System Image: ARM64V8a API 28 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play ARM 64 v8a System Image r9 [System Image: ARM64V8a API 29 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play ARM 64 v8a System Image r10 [System Image: ARM64V8a API 30 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play ARM 64 v8a System Image r9 [System Image: ARM64V8a API 31 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play ARM 64 v8a System Image r3 [System Image: ARM64V8a API 32 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play ARM 64 v8a System Image r5 [System Image: ARM64V8a API 33 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r20 [Addon: API 19 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 24 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 23 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r3 [Addon: API 3 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r2 [Addon: API 4 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 5 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 6 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 7 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r2 [Addon: API 8 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r2 [Addon: API 9 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r2 [Addon: API 10 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 11 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 12 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 13 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r2 [Addon: API 14 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r3 [Addon: API 15 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r4 [Addon: API 16 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r4 [Addon: API 17 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r4 [Addon: API 18 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 21 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 22 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google APIs r1 [Addon: API 23 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google TV Addon r2 [Addon: API 12 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google TV Addon r1 [Addon: API 13 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Glass Development Kit Preview r11 [Addon: API 19 (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android Support Repository r47.0.0 [Extra: (Android)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Repository r58 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Licensing Library r1 not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play APK Expansion library r1 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play services for Froyo r12 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play services r49 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google USB Driver r13 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google AdMob Ads SDK r11 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Analytics App Tracking SDK r3 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Web Driver r2 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Cloud Messaging for Android Library r3 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android Auto API Simulators r1 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Google Play Instant Development SDK r1.9.0 [Extra: (Google Inc.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Android Emulator Hypervisor Driver for AMD Processors (installer) r1.8.0 [Extra: (Google LLC.)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Emulator Accelerator (HAXM installer) r7.6.5 [Extra: (Intel Corporation)] not present on the system
+[2023-01-09 15:14:48.1] DEBUG: Component Intel x86 Emulator Accelerator (HAXM installer) r7.6.5 [Extra: (Intel Corporation)] not present on the system

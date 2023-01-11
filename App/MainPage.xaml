@@ -7,23 +7,29 @@
         <VerticalStackLayout
             
             VerticalOptions="Start">
-            <Entry
-                x:Name="entry"
+            
+            <SearchBar 
+                x:Name="Search"
                 Placeholder="Enter URI"
-                VerticalOptions="Start"
-                ClearButtonVisibility="WhileEditing"
-                
+                SearchButtonPressed="LoadPage"
+
                 />
+            <ScrollView
+                x:Name="MainText"
+                Scrolled="MainText_Scrolled"
+                Padding="10"
+                
+                >
+                <StackLayout x:Name="TextStack">
+                    <Label Text="ABCD"/>
+                </StackLayout>
+            </ScrollView>
 
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-            
-            
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Padding="10" Spacing="100">
+                <Button Text="Prev"/>
+                <Button Text="Next"/>
+            </HorizontalStackLayout>
+            <Button x:Name="Test" Text="Test" Clicked="Button1_Clicked"/>
 
         </VerticalStackLayout>
     </ScrollView>

@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+using System.Text;
 using Xunit;
 using Xunit.Sdk;
 
@@ -17,10 +19,18 @@ namespace TestProj
         public void TextFromFirstPageMatchesOutput()
         {
             TextScrapper scrapper = new TextScrapper("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
-            var given_text = scrapper.ScrappCurrentPageParagraphs("//div[@id='chapterText']");
+            scrapper.ScrappCurrentPageParagraphs();
+            var given_text = scrapper.Text;
             using StreamReader file = new("../../../log");
             var text = file.ReadToEnd();
-            Assert.Equal(text, given_text.ToString());
+            StringBuilder fullText= new StringBuilder();
+            foreach (var line in given_text)
+            {
+                fullText.AppendLine(line);
+
+            }
+            fullText.Remove(fullText.Length - 4, 4);
+            Assert.Equal(text, fullText.ToString());
 
         }
 
@@ -29,7 +39,7 @@ namespace TestProj
         {
             TextScrapper scrapper = new TextScrapper("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
             string expected = "https://www.wuxiaworld.eu/chapter/true-martial-world-2";
-            var _ = scrapper.ScrappCurrentPageParagraphs("//div[@id='chapterText']");
+            scrapper.ScrappCurrentPageParagraphs();
             //string expected = "https://www.wuxiaworld.eu/chapter/true-martial-world-1711";
             Assert.Equal(expected, scrapper.NextPageLink);
         }
@@ -38,8 +48,16 @@ namespace TestProj
         public void GetNextPageReturnsExceptionWhenFieldNotSet()
         {
             TextScrapper scrapper = new("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
-            var ex = Assert.Throws<NullReferenceException>(() => scrapper.NextPageLink);
-            Assert.Equal("There is no next page link", ex.Message);
+            var exception = Assert.Throws<NullReferenceException>(() => scrapper.NextPageLink);
+            Assert.Equal("There is no next page link", exception.Message);
+        }
+
+        [Fact]
+        public void GetChapterReturnsProperChapterName()
+        {
+            TextScrapper scrapper = new("https://www.wuxiaworld.eu/chapter/true-martial-world-4");
+            scrapper.ScrappCurrentPageParagraphs();
+            Assert.Equal("Chapter 4 - Who said I didn’t have any males in my house", scrapper.ChapterName);
         }
     }
 }

@@ -1,11 +1,14 @@
-﻿using Android.App;
+﻿//using Android.App;
+using MainFunctions;
+using Microsoft.Maui.Platform;
 using System.Collections;
+
 
 namespace App
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        
 
         public MainPage()
         {
@@ -13,18 +16,36 @@ namespace App
             
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void LoadPage(object sender, EventArgs e)
         {
-            count++;
+            var scrapper = new TextScrapper("https://www.wuxiaworld.eu/chapter/true-martial-world-1");
+            scrapper.ScrappCurrentPageParagraphs();
+            this.TextStack.Add(new Label { Text = scrapper.Text[0] });
+            
+            this.Title = scrapper.ChapterName;
+#if ANDROID
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-            SemanticScreenReader.Default.Announce(CounterBtn.Text + "times");
+            Platform.CurrentActivity.HideKeyboard(Platform.CurrentActivity.CurrentFocus);
+#endif
+            //this.Search.Hide
+            
         }
-        //private void onEntryComplete
+
+
+        private void Button1_Clicked(object sender, EventArgs e)
+        {
+            if (Shell.GetNavBarIsVisible(this))
+                Shell.SetNavBarIsVisible(this, false);
+            else
+                Shell.SetNavBarIsVisible(this, true);
+            
+            
+        }
+        
+        private void MainText_Scrolled(object sender, ScrolledEventArgs e)// -_-
+        {
+            //this.Test.Text = $"X = {e.ScrollX}, y = {e.ScrollY}";
+            Shell.SetNavBarIsVisible(this, false);
+        }
     }
 }

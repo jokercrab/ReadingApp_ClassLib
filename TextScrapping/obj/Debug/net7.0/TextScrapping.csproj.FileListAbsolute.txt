@@ -22,3 +22,15 @@ C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\ob
 C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\refint\TextScrapping.dll
 C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\TextScrapping.pdb
 C:\Users\anton\source\Visual Studio 2019 Projects\ReadingAppLib\TextScrapping\obj\Debug\net7.0\ref\TextScrapping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\TextScrapping.deps.json
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\TextScrapping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\TextScrapping.pdb
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.csproj.AssemblyReference.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.AssemblyInfoInputs.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.AssemblyInfo.cs
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.csproj.CoreCompileInputs.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\refint\TextScrapping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScrapping.pdb
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\ref\TextScrapping.dll
