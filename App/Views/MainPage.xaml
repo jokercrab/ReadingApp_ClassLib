@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.MainPage"
+             NavigationPage.HasNavigationBar="True">
+
+    <ScrollView x:Name="MainText"
+                    Padding="10">
+        <VerticalStackLayout>
+
+            <StackLayout x:Name="TextStack" Spacing="10"/>
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand"
+                                        Padding="10" 
+                                        Spacing="10">
+                <VerticalStackLayout>
+                    
+                    <Button 
+                        x:Name="IncreaseFontButton"
+                        Text="+" 
+                        Clicked="InscreaseFontClicked">
+                    </Button>
+                    
+                    <Button x:Name="Test" 
+                            Text="LoadPage" 
+                            Clicked="Test_Clicked">
+
+                    </Button>
+
+                    <Button 
+                        x:Name="DecreaseFontButton"
+                        Text="-"
+                        Clicked="DecreaseFontButton_Clicked">
+                        
+                        
+                    </Button>
+
+                </VerticalStackLayout>
+
+                <Button x:Name="Button_previous"
+                            Text="Prev" 
+                            Clicked="Button_previous_Clicked">
+                </Button>
+                
+
+                <Button x:Name="Button_next" 
+                        Text="Next"
+                        Clicked="Button_next_Clicked">
+                    
+                </Button>
+                
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+
+</ContentPage>
