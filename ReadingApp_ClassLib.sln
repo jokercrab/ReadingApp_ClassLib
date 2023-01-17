@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextScrapping", "TextScrapp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProj", "TestProj\TestProj.csproj", "{11AC5823-806D-4169-BF52-0F60B4C6F45C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{36C679FA-E166-4DCF-A439-36C5FA95D48D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuxiaApp", "WuxiaApp\WuxiaApp.csproj", "{EC28B261-3E48-4C86-9F5D-51A65EE9B078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,12 @@ Global
 		{11AC5823-806D-4169-BF52-0F60B4C6F45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AC5823-806D-4169-BF52-0F60B4C6F45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AC5823-806D-4169-BF52-0F60B4C6F45C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36C679FA-E166-4DCF-A439-36C5FA95D48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36C679FA-E166-4DCF-A439-36C5FA95D48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36C679FA-E166-4DCF-A439-36C5FA95D48D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{36C679FA-E166-4DCF-A439-36C5FA95D48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36C679FA-E166-4DCF-A439-36C5FA95D48D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36C679FA-E166-4DCF-A439-36C5FA95D48D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EC28B261-3E48-4C86-9F5D-51A65EE9B078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC28B261-3E48-4C86-9F5D-51A65EE9B078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC28B261-3E48-4C86-9F5D-51A65EE9B078}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC28B261-3E48-4C86-9F5D-51A65EE9B078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC28B261-3E48-4C86-9F5D-51A65EE9B078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC28B261-3E48-4C86-9F5D-51A65EE9B078}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
