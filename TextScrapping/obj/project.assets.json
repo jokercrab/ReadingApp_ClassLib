@@ -79,9 +79,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
-      "projectName": "TextScrapping",
-      "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
+      "projectUniqueName": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj",
+      "projectName": "WuxiaClassLib",
+      "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
       "outputPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\obj\\",
       "projectStyle": "PackageReference",
@@ -138,7 +138,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,11 +4,20 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:WuxiaApp"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:view="clr-namespace:WuxiaApp.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!--<ShellContent
+        Title="Library"
+        ContentTemplate="{DataTemplate view:Library}"
+        Route="MainPage" />-->
+    <TabBar>
+
+            <ShellContent ContentTemplate="{DataTemplate view:Library}" Title="Library" Icon="icon_book_64.png"/>
+            <ShellContent ContentTemplate="{DataTemplate view:Popular}" Title="Popular" Icon="icon_book_64.png"/>
+            <ShellContent ContentTemplate="{DataTemplate view:Popular}" Title="Search" Icon="icons_search_64.png"/>
+
+    </TabBar>
 
 </Shell>

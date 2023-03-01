@@ -4,6 +4,72 @@
     "D:\\VS_projs\\ReadingApp_ClassLib\\WuxiaApp\\WuxiaApp.csproj": {}
   },
   "projects": {
+    "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj",
+        "projectName": "WuxiaClassLib",
+        "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program\\VS_SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\VS_projs\\ReadingApp_ClassLib\\WuxiaApp\\WuxiaApp.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -36,19 +102,35 @@
         "frameworks": {
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj"
+              }
+            }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj"
+              }
+            }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj"
+              }
+            }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj": {
+                "projectPath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,9 +143,9 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
-            "HtmlAgilityPack": {
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[1.11.46, )"
+              "version": "[8.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -91,8 +173,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Sharpnado.Tabs.Maui": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -178,14 +264,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
-            "HtmlAgilityPack": {
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[1.11.46, )"
+              "version": "[8.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -213,8 +299,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Sharpnado.Tabs.Maui": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
@@ -245,14 +335,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
-            "HtmlAgilityPack": {
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[1.11.46, )"
+              "version": "[8.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -280,8 +370,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Sharpnado.Tabs.Maui": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
@@ -313,14 +407,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
-            "HtmlAgilityPack": {
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[1.11.46, )"
+              "version": "[8.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -348,12 +442,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "target": "Package",
-              "version": "[7.0.52, )",
+              "version": "[7.0.59, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -364,8 +458,12 @@
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
-              "version": "[1.2.221109.1, )",
+              "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Sharpnado.Tabs.Maui": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
@@ -382,11 +480,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.1, 7.0.1]"
+              "version": "[7.0.3, 7.0.3]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.1, 7.0.1]"
+              "version": "[7.0.3, 7.0.3]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -394,7 +492,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.1, 7.0.1]"
+              "version": "[7.0.3, 7.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -414,7 +512,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

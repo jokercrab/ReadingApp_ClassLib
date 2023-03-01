@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using WuxiaApp.Servs;
+using WuxiaApp.ViewModels;
+using WuxiaApp.Views;
 
 namespace WuxiaApp
 {
@@ -16,8 +19,12 @@ namespace WuxiaApp
                 });
 
 #if DEBUG
-		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<Services>();
+            builder.Services.AddSingleton<LibraryViewModel>();
+            builder.Services.AddSingleton<Library>();
+
 
             return builder.Build();
         }

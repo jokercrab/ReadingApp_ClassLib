@@ -1,0 +1,12 @@
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\TextScraping.deps.json
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\TextScraping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\TextScraping.pdb
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.csproj.AssemblyReference.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.AssemblyInfoInputs.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.AssemblyInfo.cs
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.csproj.CoreCompileInputs.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\refint\TextScraping.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\TextScraping.pdb
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\ref\TextScraping.dll

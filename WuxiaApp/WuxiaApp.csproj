@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.wuxiaapp</ApplicationId>
-		<ApplicationIdGuid>be35ae3a-d47d-4c18-9711-cee25092a67b</ApplicationIdGuid>
+		<ApplicationIdGuid>2197c564-99d8-4019-b603-f04134d92b0a</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -49,15 +49,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version ="1.11.46" />
-  </ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\TextScrapping\WuxiaClassLib.csproj" />
+	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\ReadingPage.xaml">
+	  <Compile Update="Views\Library.xaml.cs">
+	    <DependentUpon>Library.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\Popular.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

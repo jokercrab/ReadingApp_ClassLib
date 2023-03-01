@@ -7,8 +7,8 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="be35ae3a-d47d-4c18-9711-cee25092a67b" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
-  <mp:PhoneIdentity PhoneProductId="77BEE373-FF12-4B6B-A23B-CE57B8C8C9EB" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="2197c564-99d8-4019-b603-f04134d92b0a" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="A3812320-0F8E-4C4F-85DE-40859CC3411D" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WuxiaApp</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
@@ -17,7 +17,7 @@
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.2" MinVersion="2000.677.1750.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.2" MinVersion="2000.707.2303.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />

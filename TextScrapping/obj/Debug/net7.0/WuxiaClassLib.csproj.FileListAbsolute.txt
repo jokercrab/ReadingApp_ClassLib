@@ -1,0 +1,12 @@
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\WuxiaClassLib.deps.json
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\WuxiaClassLib.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\bin\Debug\net7.0\WuxiaClassLib.pdb
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.csproj.AssemblyReference.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.AssemblyInfoInputs.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.AssemblyInfo.cs
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.csproj.CoreCompileInputs.cache
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\refint\WuxiaClassLib.dll
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\WuxiaClassLib.pdb
+D:\VS_projs\ReadingApp_ClassLib\TextScrapping\obj\Debug\net7.0\ref\WuxiaClassLib.dll

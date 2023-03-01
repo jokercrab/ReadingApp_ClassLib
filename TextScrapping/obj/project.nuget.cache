@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3PwAr8Mgr/pWElX2ook2sdjtosfkRsAWqWbukeC9nIt1Od8riu74XvLaRec4Ap4q16xK6wBg+Iz+4xX9Odjilg==",
+  "dgSpecHash": "GqkSNQTlaiiExVzOpW3Q2wR1J24it8kxU6sViKC6meqsfZ1XB+UvnDNN5Wfa7dkkpa9dP7fv9XakqRwY2CJoGg==",
   "success": true,
-  "projectFilePath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\TextScrapping.csproj",
+  "projectFilePath": "D:\\VS_projs\\ReadingApp_ClassLib\\TextScrapping\\WuxiaClassLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
   ],

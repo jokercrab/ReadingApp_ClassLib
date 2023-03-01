@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WuxiaApp</name>
+    </assembly>
+    <members>
+        <member name="P:WuxiaApp.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:WuxiaApp.ViewModels.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:WuxiaApp.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:WuxiaApp.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="F:WuxiaApp.ViewModels.LibraryViewModel.getBooksCommand">
+            <summary>The backing field for <see cref="P:WuxiaApp.ViewModels.LibraryViewModel.GetBooksCommand"/>.</summary>
+        </member>
+        <member name="P:WuxiaApp.ViewModels.LibraryViewModel.GetBooksCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:WuxiaApp.ViewModels.LibraryViewModel.GetBooksAsync"/>.</summary>
+        </member>
+        <member name="F:WuxiaApp.ViewModels.LibraryViewModel.deleteLastBookCommand">
+            <summary>The backing field for <see cref="P:WuxiaApp.ViewModels.LibraryViewModel.DeleteLastBookCommand"/>.</summary>
+        </member>
+        <member name="P:WuxiaApp.ViewModels.LibraryViewModel.DeleteLastBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:WuxiaApp.ViewModels.LibraryViewModel.DeleteLastBookAsync"/>.</summary>
+        </member>
+        <member name="F:WuxiaApp.ViewModels.LibraryViewModel.addNewBookCommand">
+            <summary>The backing field for <see cref="P:WuxiaApp.ViewModels.LibraryViewModel.AddNewBookCommand"/>.</summary>
+        </member>
+        <member name="P:WuxiaApp.ViewModels.LibraryViewModel.AddNewBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:WuxiaApp.ViewModels.LibraryViewModel.AddNewBookAsync"/>.</summary>
+        </member>
+    </members>
+</doc>
